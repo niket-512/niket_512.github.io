@@ -1,0 +1,199 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url("https://www.freesoundslibrary.com/wp-content/uploads/2018/03/horror-background-noise.jpg"),url("");
+
+  background-position: center top;
+  background-size:contain ,cover  ;
+  margin: 0;
+}
+
+.intro{
+color:blue;
+}
+h2{
+text-shadow:2px 2px ;}
+
+a {
+  color: #204156;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+  text-shadow: 2px 2px red;
+  color:white;
+  width: 100px;
+  height: 100px;
+  
+  position: relative;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 1200px;}
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1200px;}
+}
+
+.page-title:hover {
+  -ms-transform: scale(7); 
+  -webkit-transform: scale(7); 
+  transform: scale(7); 
+  
+}
+
+
+
+.page-description {
+  border: 1px solid #000;
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
+  color:white;
+  font-family: 'Akronim', cursive;
+}
+.dropdown {
+  position: relative;
+  top:0px;
+  right:-390px;
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+  color:blue;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:rgb(200,200,145) ;
+  min-width: 140px;
+  box-shadow: 2px 8px 1px 2px rgba(0,0,0,0.2);
+  padding: 1px 1px;
+  border-radius:6px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color:black;
+}
+
+.gallery {
+  margin-top: 10px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:left;
+ 
+  position:relative;
+  width:20%;
+  -webkit-filter: grayscale(80%);
+   filter: grayscale(80%);
+  
+}
+.thumbnail{
+     border-radius: 50%
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+.gallery:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h2{
+  position:relative;
+  top:0px;
+  right:-50px;
+  font-family: 'Akronim', cursive;
+}
+ 
+
+
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+  border:1px dashed black;
+}
+
+nav ul {
+  display: inline;
+  
+}
+
+.contact-btn {
+  float: right;
+}
+
+.contact-btn a {
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+  position:relative;
+
+}
+
+.contact-btn a:active{
+
+bottom:7px;
+
+}
+
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color:rgb(122, 65, 244,5);
+  text-decoration: none;
+  
+}

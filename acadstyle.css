@@ -1,0 +1,45 @@
+body{
+   background-image:url("https://images.news18.com/ibnlive/uploads/877x0/jpg/2019/04/Shah-Rukh-Khan-Honoured-with-a-Doctorate-Degree-in-Philanthropy-1.jpg");
+  background-repeat:no-repeat;
+  background-position:center top;
+  background-size:cover;
+}
+h1{
+   font-family: 'ZCOOL KuaiLe', cursive;
+}
+h2{
+  float:right;}
+.Achievements{
+  font-family: 'Dancing Script', cursive;
+  position:relative;
+  color:rgb(0, 66, 24);
+  top:50px;
+  right:-200px;
+  
+  height: 170px;
+  width: 500px;
+ 
+  background-image: url("https://cafemarathi.com/wp-content/uploads/2016/09/om-shanti-om.jpg");
+  border-radius:10px;
+  border: 1px solid #000;
+  margin:2px;
+  text-align:center;
+ 
+ 
+}
+.Academics{
+  font-family: 'Dancing Script', cursive;
+  position:relative;
+  top:300px;
+  right:-500px;
+  height: 170px;
+  width: 500px;
+  background-image: url("https://image.freepik.com/free-vector/books-background-with-diploma-biretta_23-2147628018.jpg");
+  border-radius:10px;
+  border: 1px solid #000;
+  margin:2px;
+  text-align:center;
+ 
+ 
+ 
+}
